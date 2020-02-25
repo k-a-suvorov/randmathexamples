@@ -21,7 +21,7 @@ try:
 		print(F'Zero {z} ', end='')
 	
 	
-	if (y > x):
+	if ((y > x)  or ((x < 0) and (y == 0))):
 		
 		#вывод кратного числа 		
 		if (a % 5 == 0):
