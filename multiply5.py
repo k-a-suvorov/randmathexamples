@@ -36,7 +36,7 @@ try:
 	#Вывод всех чисел кратных 5
 	for i in range(x, y, 1):
 		if (i % 5 == 0):
-			print(" ", i, end="")
+			print(" ", i, " ", end="")
 		elif (i % 5 != 0):
 			zeroPrint()	
 
