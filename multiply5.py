@@ -8,7 +8,7 @@ try:
 	a = random.randint(x,y)
 	z = 0
 
-	if ((x > y) or (y == y)):
+	if ((x > y) or (x == y)):
 		print('Не верное введены значения')
 
 			
