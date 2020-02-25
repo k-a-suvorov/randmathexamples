@@ -5,7 +5,8 @@ y = int(input('x = '))
 
 a = random.randint(x,y)
 z = 0
-
+if ((x > y) or (x == y) or (y == 0)):
+	print('Не верное введены значения')
 if (a % 5 == 0):
 	print('Ура: ', a)
 else:
