@@ -1,15 +1,23 @@
 import random # библиотека генерации случайного числа
 	#Ввод двуч чисел
-x = int(input('x = '))
-y = int(input('x = '))
+try:
 
-a = random.randint(x,y)
-z = 0
-if ((x > y) or (x == y) or (y == 0)):
-	print('Не верное введены значения')
-if (a % 5 == 0):
-	print('Ура: ', a)
-else:
-	print('Не ураюю (((', z)	
+	x = int(input('x = '))
+	y = int(input('x = '))
 
-print(a)	
+	a = random.randint(x,y)
+	z = 0
+
+	if ((x > y) or (y == y)):
+		print('Не верное введены значения')
+
+			
+	if (a % 5 == 0):
+		print('!!!')
+	else:
+		print(z)	
+
+	print(a)
+
+except Exception:
+	print(f'Это что ещё такое? {y} не должен быть 0')
